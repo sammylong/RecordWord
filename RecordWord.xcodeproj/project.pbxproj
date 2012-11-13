@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A588940916523F0000DD10D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A588940816523F0000DD10D2 /* UIKit.framework */; };
+		A588940B16523F0100DD10D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A588940A16523F0000DD10D2 /* Foundation.framework */; };
+		A588940D16523F0100DD10D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A588940C16523F0100DD10D2 /* CoreGraphics.framework */; };
+		A588940F16523F0100DD10D2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A588940E16523F0100DD10D2 /* CoreData.framework */; };
+		A588941516523F0100DD10D2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A588941316523F0100DD10D2 /* InfoPlist.strings */; };
+		A588941716523F0100DD10D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A588941616523F0100DD10D2 /* main.m */; };
+		A588941B16523F0100DD10D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A588941A16523F0100DD10D2 /* AppDelegate.m */; };
+		A588941D16523F0100DD10D2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A588941C16523F0100DD10D2 /* Default.png */; };
+		A588941F16523F0100DD10D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A588941E16523F0100DD10D2 /* Default@2x.png */; };
+		A588942116523F0100DD10D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A588942016523F0100DD10D2 /* Default-568h@2x.png */; };
+		A588942416523F0100DD10D2 /* RecordWord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A588942216523F0100DD10D2 /* RecordWord.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A588940416523F0000DD10D2 /* RecordWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A588940816523F0000DD10D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A588940A16523F0000DD10D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A588940C16523F0100DD10D2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A588940E16523F0100DD10D2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A588941216523F0100DD10D2 /* RecordWord-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RecordWord-Info.plist"; sourceTree = "<group>"; };
+		A588941416523F0100DD10D2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A588941616523F0100DD10D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A588941816523F0100DD10D2 /* RecordWord-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RecordWord-Prefix.pch"; sourceTree = "<group>"; };
+		A588941916523F0100DD10D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A588941A16523F0100DD10D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A588941C16523F0100DD10D2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A588941E16523F0100DD10D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A588942016523F0100DD10D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A588942316523F0100DD10D2 /* RecordWord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecordWord.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A588940116523F0000DD10D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A588940916523F0000DD10D2 /* UIKit.framework in Frameworks */,
+				A588940B16523F0100DD10D2 /* Foundation.framework in Frameworks */,
+				A588940D16523F0100DD10D2 /* CoreGraphics.framework in Frameworks */,
+				A588940F16523F0100DD10D2 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A58893F916523F0000DD10D2 = {
+			isa = PBXGroup;
+			children = (
+				A588941016523F0100DD10D2 /* RecordWord */,
+				A588940716523F0000DD10D2 /* Frameworks */,
+				A588940516523F0000DD10D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A588940516523F0000DD10D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A588940416523F0000DD10D2 /* RecordWord.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A588940716523F0000DD10D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A588940816523F0000DD10D2 /* UIKit.framework */,
+				A588940A16523F0000DD10D2 /* Foundation.framework */,
+				A588940C16523F0100DD10D2 /* CoreGraphics.framework */,
+				A588940E16523F0100DD10D2 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A588941016523F0100DD10D2 /* RecordWord */ = {
+			isa = PBXGroup;
+			children = (
+				A588941916523F0100DD10D2 /* AppDelegate.h */,
+				A588941A16523F0100DD10D2 /* AppDelegate.m */,
+				A588942216523F0100DD10D2 /* RecordWord.xcdatamodeld */,
+				A588941116523F0100DD10D2 /* Supporting Files */,
+			);
+			path = RecordWord;
+			sourceTree = "<group>";
+		};
+		A588941116523F0100DD10D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A588941216523F0100DD10D2 /* RecordWord-Info.plist */,
+				A588941316523F0100DD10D2 /* InfoPlist.strings */,
+				A588941616523F0100DD10D2 /* main.m */,
+				A588941816523F0100DD10D2 /* RecordWord-Prefix.pch */,
+				A588941C16523F0100DD10D2 /* Default.png */,
+				A588941E16523F0100DD10D2 /* Default@2x.png */,
+				A588942016523F0100DD10D2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A588940316523F0000DD10D2 /* RecordWord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A588942716523F0100DD10D2 /* Build configuration list for PBXNativeTarget "RecordWord" */;
+			buildPhases = (
+				A588940016523F0000DD10D2 /* Sources */,
+				A588940116523F0000DD10D2 /* Frameworks */,
+				A588940216523F0000DD10D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordWord;
+			productName = RecordWord;
+			productReference = A588940416523F0000DD10D2 /* RecordWord.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A58893FB16523F0000DD10D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Apexlearn Inc.";
+			};
+			buildConfigurationList = A58893FE16523F0000DD10D2 /* Build configuration list for PBXProject "RecordWord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A58893F916523F0000DD10D2;
+			productRefGroup = A588940516523F0000DD10D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A588940316523F0000DD10D2 /* RecordWord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A588940216523F0000DD10D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A588941516523F0100DD10D2 /* InfoPlist.strings in Resources */,
+				A588941D16523F0100DD10D2 /* Default.png in Resources */,
+				A588941F16523F0100DD10D2 /* Default@2x.png in Resources */,
+				A588942116523F0100DD10D2 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A588940016523F0000DD10D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A588941716523F0100DD10D2 /* main.m in Sources */,
+				A588941B16523F0100DD10D2 /* AppDelegate.m in Sources */,
+				A588942416523F0100DD10D2 /* RecordWord.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A588941316523F0100DD10D2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A588941416523F0100DD10D2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A588942516523F0100DD10D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A588942616523F0100DD10D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A588942816523F0100DD10D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecordWord/RecordWord-Prefix.pch";
+				INFOPLIST_FILE = "RecordWord/RecordWord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A588942916523F0100DD10D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RecordWord/RecordWord-Prefix.pch";
+				INFOPLIST_FILE = "RecordWord/RecordWord-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A58893FE16523F0000DD10D2 /* Build configuration list for PBXProject "RecordWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A588942516523F0100DD10D2 /* Debug */,
+				A588942616523F0100DD10D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A588942716523F0100DD10D2 /* Build configuration list for PBXNativeTarget "RecordWord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A588942816523F0100DD10D2 /* Debug */,
+				A588942916523F0100DD10D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A588942216523F0100DD10D2 /* RecordWord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A588942316523F0100DD10D2 /* RecordWord.xcdatamodel */,
+			);
+			currentVersion = A588942316523F0100DD10D2 /* RecordWord.xcdatamodel */;
+			path = RecordWord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A58893FB16523F0000DD10D2 /* Project object */;
+}
