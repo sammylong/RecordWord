@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A569F3C416529F9F00989AD5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A569F3C316529F9F00989AD5 /* AVFoundation.framework */; };
 		A588940916523F0000DD10D2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A588940816523F0000DD10D2 /* UIKit.framework */; };
 		A588940B16523F0100DD10D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A588940A16523F0000DD10D2 /* Foundation.framework */; };
 		A588940D16523F0100DD10D2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A588940C16523F0100DD10D2 /* CoreGraphics.framework */; };
@@ -18,9 +19,17 @@
 		A588941F16523F0100DD10D2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A588941E16523F0100DD10D2 /* Default@2x.png */; };
 		A588942116523F0100DD10D2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A588942016523F0100DD10D2 /* Default-568h@2x.png */; };
 		A588942416523F0100DD10D2 /* RecordWord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A588942216523F0100DD10D2 /* RecordWord.xcdatamodeld */; };
+		A588942C16523F6F00DD10D2 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A588942B16523F6F00DD10D2 /* MasterViewController.m */; };
+		A588943416524D9400DD10D2 /* SyncManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A588943316524D9400DD10D2 /* SyncManager.m */; };
+		A58894371652561500DD10D2 /* Word.m in Sources */ = {isa = PBXBuildFile; fileRef = A58894361652561500DD10D2 /* Word.m */; };
+		A588943916525F7E00DD10D2 /* words.plist in Resources */ = {isa = PBXBuildFile; fileRef = A588943816525F7E00DD10D2 /* words.plist */; };
+		A588943F165267BA00DD10D2 /* UIViewController+ALModal.m in Sources */ = {isa = PBXBuildFile; fileRef = A588943E165267BA00DD10D2 /* UIViewController+ALModal.m */; };
+		A5889442165267D900DD10D2 /* AddRecordingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5889441165267D900DD10D2 /* AddRecordingViewController.m */; };
+		A5C0981C166DFDE40025B14D /* DataProcessor.c in Sources */ = {isa = PBXBuildFile; fileRef = A5C0981A166DFDE40025B14D /* DataProcessor.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A569F3C316529F9F00989AD5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A588940416523F0000DD10D2 /* RecordWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A588940816523F0000DD10D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A588940A16523F0000DD10D2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +45,20 @@
 		A588941E16523F0100DD10D2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		A588942016523F0100DD10D2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A588942316523F0100DD10D2 /* RecordWord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RecordWord.xcdatamodel; sourceTree = "<group>"; };
+		A588942A16523F6F00DD10D2 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		A588942B16523F6F00DD10D2 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		A588943216524D9400DD10D2 /* SyncManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncManager.h; sourceTree = "<group>"; };
+		A588943316524D9400DD10D2 /* SyncManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SyncManager.m; sourceTree = "<group>"; };
+		A58894351652561500DD10D2 /* Word.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Word.h; sourceTree = "<group>"; };
+		A58894361652561500DD10D2 /* Word.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Word.m; sourceTree = "<group>"; };
+		A588943816525F7E00DD10D2 /* words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = words.plist; path = ../../WordRecording/WordRecording/words.plist; sourceTree = "<group>"; };
+		A588943D165267BA00DD10D2 /* UIViewController+ALModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+ALModal.h"; sourceTree = "<group>"; };
+		A588943E165267BA00DD10D2 /* UIViewController+ALModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+ALModal.m"; sourceTree = "<group>"; };
+		A5889440165267D900DD10D2 /* AddRecordingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddRecordingViewController.h; sourceTree = "<group>"; };
+		A5889441165267D900DD10D2 /* AddRecordingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddRecordingViewController.m; sourceTree = "<group>"; };
+		A588944716526B0C00DD10D2 /* ALTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALTypes.h; sourceTree = "<group>"; };
+		A5C0981A166DFDE40025B14D /* DataProcessor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = DataProcessor.c; sourceTree = "<group>"; };
+		A5C0981B166DFDE40025B14D /* DataProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataProcessor.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A569F3C416529F9F00989AD5 /* AVFoundation.framework in Frameworks */,
 				A588940916523F0000DD10D2 /* UIKit.framework in Frameworks */,
 				A588940B16523F0100DD10D2 /* Foundation.framework in Frameworks */,
 				A588940D16523F0100DD10D2 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +97,7 @@
 		A588940716523F0000DD10D2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A569F3C316529F9F00989AD5 /* AVFoundation.framework */,
 				A588940816523F0000DD10D2 /* UIKit.framework */,
 				A588940A16523F0000DD10D2 /* Foundation.framework */,
 				A588940C16523F0100DD10D2 /* CoreGraphics.framework */,
@@ -84,10 +109,19 @@
 		A588941016523F0100DD10D2 /* RecordWord */ = {
 			isa = PBXGroup;
 			children = (
+				A5C09819166DFD950025B14D /* DataProcessing */,
+				A588944716526B0C00DD10D2 /* ALTypes.h */,
+				A5889440165267D900DD10D2 /* AddRecordingViewController.h */,
+				A5889441165267D900DD10D2 /* AddRecordingViewController.m */,
+				A588943D165267BA00DD10D2 /* UIViewController+ALModal.h */,
+				A588943E165267BA00DD10D2 /* UIViewController+ALModal.m */,
+				A588943116524CF900DD10D2 /* Model */,
 				A588941916523F0100DD10D2 /* AppDelegate.h */,
 				A588941A16523F0100DD10D2 /* AppDelegate.m */,
 				A588942216523F0100DD10D2 /* RecordWord.xcdatamodeld */,
 				A588941116523F0100DD10D2 /* Supporting Files */,
+				A588942A16523F6F00DD10D2 /* MasterViewController.h */,
+				A588942B16523F6F00DD10D2 /* MasterViewController.m */,
 			);
 			path = RecordWord;
 			sourceTree = "<group>";
@@ -95,6 +129,7 @@
 		A588941116523F0100DD10D2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A588943816525F7E00DD10D2 /* words.plist */,
 				A588941216523F0100DD10D2 /* RecordWord-Info.plist */,
 				A588941316523F0100DD10D2 /* InfoPlist.strings */,
 				A588941616523F0100DD10D2 /* main.m */,
@@ -104,6 +139,27 @@
 				A588942016523F0100DD10D2 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A588943116524CF900DD10D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A58894351652561500DD10D2 /* Word.h */,
+				A58894361652561500DD10D2 /* Word.m */,
+				A588943216524D9400DD10D2 /* SyncManager.h */,
+				A588943316524D9400DD10D2 /* SyncManager.m */,
+			);
+			name = Model;
+			path = SyncManagers;
+			sourceTree = "<group>";
+		};
+		A5C09819166DFD950025B14D /* DataProcessing */ = {
+			isa = PBXGroup;
+			children = (
+				A5C0981A166DFDE40025B14D /* DataProcessor.c */,
+				A5C0981B166DFDE40025B14D /* DataProcessor.h */,
+			);
+			path = DataProcessing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +217,7 @@
 				A588941D16523F0100DD10D2 /* Default.png in Resources */,
 				A588941F16523F0100DD10D2 /* Default@2x.png in Resources */,
 				A588942116523F0100DD10D2 /* Default-568h@2x.png in Resources */,
+				A588943916525F7E00DD10D2 /* words.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +231,12 @@
 				A588941716523F0100DD10D2 /* main.m in Sources */,
 				A588941B16523F0100DD10D2 /* AppDelegate.m in Sources */,
 				A588942416523F0100DD10D2 /* RecordWord.xcdatamodeld in Sources */,
+				A588942C16523F6F00DD10D2 /* MasterViewController.m in Sources */,
+				A588943416524D9400DD10D2 /* SyncManager.m in Sources */,
+				A58894371652561500DD10D2 /* Word.m in Sources */,
+				A588943F165267BA00DD10D2 /* UIViewController+ALModal.m in Sources */,
+				A5889442165267D900DD10D2 /* AddRecordingViewController.m in Sources */,
+				A5C0981C166DFDE40025B14D /* DataProcessor.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,7 +276,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -233,7 +296,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -281,6 +344,7 @@
 				A588942916523F0100DD10D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

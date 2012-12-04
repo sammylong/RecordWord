@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "SyncManager.h"
+#import "MasterViewController.h"
 
 @implementation AppDelegate
 
@@ -16,9 +18,20 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
+
+    // sync initial data
+    SyncManager *syncManager = [[SyncManager alloc] init];
+    syncManager.managedObjectContext = managedObjectContext;
+    [syncManager syncInitialData];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    MasterViewController *masterViewController = [[MasterViewController alloc] initWithManagedObjectContext:self.managedObjectContext];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:masterViewController];
+    navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
+    self.window.rootViewController = navigationController;
     [self.window makeKeyAndVisible];
     return YES;
 }
